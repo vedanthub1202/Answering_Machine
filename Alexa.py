@@ -65,7 +65,10 @@ def call_Anuja():
         print(cmd)    
     elif 'Where were you last night?' in command:
         cmd=talk('Ask you mom.')
-        print(cmd)    
+        print(cmd) 
+    elif 'kaziranga national park is famous for' in command:
+        cmd=talk('rhino')
+        print(cmd)         
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
